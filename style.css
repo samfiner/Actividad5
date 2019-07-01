@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Titillium Web Light'), local('TitilliumWeb-Light'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGItzYw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+    margin:0;
+    display: grid;
+    grid-gap: 1.5em;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #2b0863;
+}
+header h3{
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0;
+    margin-left: 2em;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header ul li{
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: .8em;
+}
+header ul li a{
+    text-decoration: none;
+    color:blanchedalmond;
+    font-weight: bold;
+    margin-left: 1em;
+    display: block;
+}
+h1{
+    font-size: 1.3em;
+}
+h2{
+    font-size: 1em;
+    color: rgba(3, 122, 23, 0.856);
+}
+h3{
+    font-size: .9em;
+    color: rgba(3, 109, 20, 0.799);
+}
+section{
+    margin-bottom: 1em;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #28146d;
+}
+footer a{
+    color: rgba(234, 240, 240, 0.856);
+    text-decoration: none;
+    margin: 0 1em 0 1em;
+}
